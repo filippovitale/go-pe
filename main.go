@@ -1,8 +1,11 @@
 package main
 
-import "fmt"
+import (
+  "fmt"
+  "github.com/filippovitale/go-pe/pep"
+)
 
 func main() {
-	fmt.Println("Project Euler")
-	fmt.Println("Few problem solved using go")
+  fmt.Println("Project Euler\n")
+  pep.Solve()
 }
