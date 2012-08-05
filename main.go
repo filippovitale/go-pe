@@ -7,5 +7,5 @@ import (
 
 func main() {
   fmt.Println("Project Euler\n")
-  pep.Solve()
+  fmt.Println("Problem 208 solution:", pep.Solve())
 }
